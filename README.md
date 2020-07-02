@@ -1,6 +1,8 @@
 # Drip & Drizzle, a dessert shop application.
 ## Developed with Flutter
  
+ ![D&D_GIF](app.gif)
+ 
 The e-commerce application, developed for a home baker, Drip and Drizzle allows customers to place orders and make payments through Unified Payments interface(UPI). 
 Features:
 1. Optimized UX.
@@ -9,6 +11,3 @@ Features:
 4. Push Notifications with Firebase Cloud Messaging.
 5. Companion business-side application (Private). 
 6. Payments with Unified Payments Interface(UPI).
-
-
-![D&D_GIF](app.gif)
