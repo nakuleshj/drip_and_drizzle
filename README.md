@@ -1,4 +1,4 @@
-# Drip & Drizzle, a dessert shop application.
+# Drip & Drizzle, a dessert ordering application.
 ## Developed with Flutter
  
  ![D&D_GIF](app.gif)
