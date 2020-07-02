@@ -2,6 +2,7 @@
 ## Developed with Flutter
  
  ![D&D_GIF](app.gif)
+ ![D&D_GIF](payment.jpg)
  
 The e-commerce application, developed for a home baker, Drip and Drizzle allows customers to place orders and make payments through Unified Payments interface(UPI). 
 Features:
@@ -10,4 +11,4 @@ Features:
 3. Utilizes Firebase as application's backend.
 4. Push Notifications with Firebase Cloud Messaging.
 5. Companion business-side application (Private). 
-6. Payments with Unified Payments Interface(UPI).
+6. Payments with any Unified Payments Interface(UPI) app installed on your device.
