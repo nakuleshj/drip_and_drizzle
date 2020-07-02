@@ -1,0 +1,43 @@
+name: dripanddrizzle
+description: A flutter application for ordering desserts.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  firebase_core: ^0.4.5
+  firebase_auth: ^0.16.1
+  cloud_firestore: ^0.13.6
+  google_sign_in: ^4.5.1
+  shared_preferences: ^0.5.7+3
+  marquee_widget: ^0.8.0
+  provider: ^4.1.3
+  firebase_storage: 3.1.3
+  firebase_image: ^0.1.6
+  upi_india: ^2.1.2
+  firebase_messaging: ^6.0.16
+  intl: ^0.16.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+  fonts:
+     -  family: Arizonia
+        fonts:
+         - asset: fonts/Arizonia-Regular.ttf
+     -  family: Lato
+        fonts:
+          - asset: fonts/PlayfairDisplay-Medium.ttf
+          #LibreBaskerVille-Regular.ttf
