@@ -1,5 +1,5 @@
-# Drip & Drizzle
-Developed with Flutter SDK
+# Drip & Drizzle, a dessert shop application.
+## Developed with Flutter SDK
  
 The e-commerce application, developed for a home baker, Drip and Drizzle allows customers to place orders and make payments through Unified Payments interface(UPI). 
 Features:
