@@ -2,7 +2,7 @@
 ## Developed with Flutter
  
  ![D&D_GIF](app.gif)
- ![D&D_GIF](payment.jpg=461x1000)
+ ![D&D_GIF](payment.jpg=461x)
  
 The e-commerce application, developed for a home baker, Drip and Drizzle allows customers to place orders and make payments through Unified Payments interface(UPI). 
 Features:
