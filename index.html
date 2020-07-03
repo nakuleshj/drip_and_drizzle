@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <title>Drip and Drizzle</title>
+    <style>
+        .center {
+            display: block;
+            margin: auto;
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        ul     	     {
+		list-style: none;
+	     }
+         ul:before{
+            content:attr(aria-label);
+            font-size:150%;
+            font-weight:bold;
+            margin-left:-15px;
+         }
+
+ul li:before {
+		content: "\00BB \0020";
+        margin-left:-10px;
+        font-size: 120%;
+	     }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4"><img src='images/app_ss.png' width="350px" height="700px" class="center"></div>
+            <div class="col-lg-6">
+                <!--<h1 style="font-family: 'Arizonia', cursive; color:#f368e0; text-align:center; font-size: 55px;">Drip and Drizzle</h1>-->
+                <img src='images/logo-removebg.png' class="center" width="350" height="350">
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <ul aria-label="Features:">
+                            <li>Optimized UI/UX</li>
+                            <li>Order desserts listed in the catalog</li>
+                            <li>Custom Orders</li>
+                            <li>Pay with Unified Payments Interface(UPI)</li>
+                            <li>Support for all major UPI apps</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-3"><img src="images/google-play-badge.png" width="175" height="80" class="center"></div>
+                    <div class="col-lg-3"><img src="images/github.png" width="175" height="80" class="center"></div>
+                    <div class="col-lg-3"></div>
+                </div>
+                
+                <div class="row">
+                    <br>
+                    <div class="col-lg-12"><img src="images/flutter.png" class="center" width="262" height="100"></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>
