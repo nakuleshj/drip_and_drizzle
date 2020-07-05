@@ -21,6 +21,7 @@
 #.vscode/
 
 # Flutter/Dart/Pub related
+key.properties
 **/doc/api/
 .dart_tool/
 .flutter-plugins
