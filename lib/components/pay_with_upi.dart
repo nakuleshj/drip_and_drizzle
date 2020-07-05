@@ -35,11 +35,11 @@ class _PayWithUPIState extends State<PayWithUPI> {
   Future<UpiResponse> initiateTransaction(String app) async {
     return _upiIndia.startTransaction(
       app: app,
-      receiverUpiId: '9167440098@upi',
+      receiverUpiId: '123456789@upi',
       receiverName: 'Drip&Drizzle',
       transactionRefId: '',
       transactionNote: 'Pay for delicious Desserts',
-      amount: 1,//Provider.of<CartModel>(context, listen: false).total.toDouble(),
+      amount: Provider.of<CartModel>(context, listen: false).total.toDouble(),
     );
   }
 
